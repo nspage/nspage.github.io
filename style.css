@@ -1,0 +1,89 @@
+.encadre {
+  background-color: #e0fbfc;
+  color: #222222;
+  font-family: 'HK Grotesk', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 8px solid #253237;
+}
+
+.encadre-content {
+  width: 80%;
+  margin: 0 auto;
+  max-height: 100%;
+  position: relative;
+  z-index: 20;
+}
+.content {
+  box-sizing: border-box;
+  color: #222222;
+  /* font-family: 'HK Grotesk', sans-serif; */
+  font-size: 14px;
+  line-height: 23.8px;
+  padding: 3em 0px;
+}
+/* @media screen and (min-width: 1600px) {
+  body {
+    padding: 6em 0px;
+  }
+} */
+h1 {
+  color: #5c6b73;
+}
+img {
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #222222;
+  /* font-family: 'HK Grotesk', sans-serif; */
+  font-size: 19px;
+  height: auto;
+  line-height: 32.3px;
+  max-height: 92px;
+  max-width: 100%;
+}
+.fab {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #253237;
+  color: #e0fbfc;
+}
+.fa-telegram-plane {
+  background: #253237;
+  color: #e0fbfc;
+}
+
+.fas {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fas:hover {
+  opacity: 0.7;
+}
+
+.fa-envelope-open {
+  background: #253237;
+  color: #e0fbfc;
+}
